@@ -2,4 +2,4 @@
 {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:', ['class' => 'label']) !!}
 <p class="control">
     {!! Form::number('$FIELD_NAME$', null, ['class' => 'input']) !!}
-</div>
+</p>
