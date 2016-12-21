@@ -15,7 +15,7 @@
     </section>
 
     <div class="container is-fluid" style="margin-top: 2em">
-        @include('flash::message')
+        @include('bulma-templates::common.flash')
 
         @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.table')
     </div>
