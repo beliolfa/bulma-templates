@@ -14,12 +14,11 @@
         </div>
     </section>
 
-    <div class="content">
+    <div class="container is-fluid" style="margin-top: 2em">
         <div class="box">
-            <div class="box-body">
-                    @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.show_fields')
-                    <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="button is-light">Back</a>
-            </div>
+            @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.show_fields')
+            <br>
+            <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="button is-light">Volver</a>
         </div>
     </div>
 @endsection
