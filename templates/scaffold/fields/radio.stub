@@ -1,3 +1,5 @@
-    <label class="radio-inline">
-        {!! Form::radio('$FIELD_NAME$', "$VALUE$", null) !!} $LABEL$
-    </label>
+    <p class="control">
+      <label class="radio">
+          {!! Form::radio('$FIELD_NAME$', "$VALUE$", null) !!} $LABEL$
+      </label>
+    </p>

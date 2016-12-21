@@ -2,5 +2,5 @@
 {!! Form::label('$FIELD_NAME$', '$FIELD_NAME_TITLE$:', ['class' => 'label']) !!}
 <p class="control">
     {!! Form::hidden('$FIELD_NAME$', false) !!}
-    {!! Form::checkbox('$FIELD_NAME$', '$CHECKBOX_VALUE$', null) !!} $CHECKBOX_VALUE$
+    {!! Form::checkbox('$FIELD_NAME$', '$CHECKBOX_VALUE$', null) !!}
 </p>
