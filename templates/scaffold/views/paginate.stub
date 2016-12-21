@@ -1,2 +1,2 @@
 
-        @include('adminlte-templates::common.paginate', ['records' => $$MODEL_NAME_PLURAL_CAMEL$])
+        @include('bulma-templates::common.paginate', ['records' => $$MODEL_NAME_PLURAL_CAMEL$])
