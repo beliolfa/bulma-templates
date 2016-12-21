@@ -4,7 +4,7 @@ namespace Disitec\BulmaTemplates;
 
 use Illuminate\Support\ServiceProvider;
 
-class CoreTemplatesServiceProvider extends ServiceProvider
+class BulmaTemplatesServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
