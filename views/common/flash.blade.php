@@ -1,3 +1,3 @@
- @if(Session::has('message'))
-    <p class="notification is-success">{{ Session::get('message') }}</p>
+ @if(Session::has('flash_notification.message'))
+    <p class="notification is-{{ Session::get('flash_notification.level') }}">{{ Session::get('flash_notification.message') }}</p>
 @endif
