@@ -18,9 +18,9 @@
         @include('bulma-templates::common.errors')
 
         {!! Form::open(['route' => '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.store']) !!}
-
+        <div class="box">
             @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.fields')
-
+        </div>
         {!! Form::close() !!}
     </div>
 
